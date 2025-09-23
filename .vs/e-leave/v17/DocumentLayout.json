@@ -1,0 +1,605 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\balance\\page.tsx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\balance\\page.tsx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\components\\StatCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\StatCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\components\\LeaveForm.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\LeaveForm.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\globals.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\globals.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\components\\NavBar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\NavBar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\history\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\history\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\api\\apply\\route.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\api\\apply\\route.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\applied\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\applied\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\api.ts||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\api.ts||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\swr-provider.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\swr-provider.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\types.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\types.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\store.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\store.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\schema.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\schema.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\date.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\date.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\offline\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\offline\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\lan\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\lan\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\api\\n8n\\callback\\route.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\api\\n8n\\callback\\route.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\api\\ip\\route.ts||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\api\\ip\\route.ts||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\eslint.config.mjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:eslint.config.mjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\next.config.mjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:next.config.mjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\tailwind.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tailwind.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\postcss.config.mjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:postcss.config.mjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\next.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:next.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\public\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\.env.local.example||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env.local.example||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\public\\sw.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\sw.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 143,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAKMBAAAAAAAAAAAQwN4BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-09-21T14:31:45.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StatCard.tsx",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\components\\StatCard.tsx",
+              "RelativeDocumentMoniker": "src\\components\\StatCard.tsx",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\components\\StatCard.tsx",
+              "RelativeToolTip": "src\\components\\StatCard.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T07:45:03.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "page.tsx",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\balance\\page.tsx",
+              "RelativeDocumentMoniker": "src\\app\\balance\\page.tsx",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\balance\\page.tsx",
+              "RelativeToolTip": "src\\app\\balance\\page.tsx",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAwDkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T07:42:51.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeaveForm.tsx",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\components\\LeaveForm.tsx",
+              "RelativeDocumentMoniker": "src\\components\\LeaveForm.tsx",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\components\\LeaveForm.tsx",
+              "RelativeToolTip": "src\\components\\LeaveForm.tsx",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T07:44:33.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "globals.css",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\globals.css",
+              "RelativeDocumentMoniker": "src\\app\\globals.css",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\globals.css",
+              "RelativeToolTip": "src\\app\\globals.css",
+              "ViewState": "AQIAALkAAAAAAAAAAAAAAOEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-19T09:19:53.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavBar.tsx",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\components\\NavBar.tsx",
+              "RelativeDocumentMoniker": "src\\components\\NavBar.tsx",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\components\\NavBar.tsx",
+              "RelativeToolTip": "src\\components\\NavBar.tsx",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T07:44:51.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "page.tsx",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\history\\page.tsx",
+              "RelativeDocumentMoniker": "src\\app\\history\\page.tsx",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\history\\page.tsx",
+              "RelativeToolTip": "src\\app\\history\\page.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T07:43:30.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "route.ts",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\api\\apply\\route.ts",
+              "RelativeDocumentMoniker": "src\\app\\api\\apply\\route.ts",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\api\\apply\\route.ts",
+              "RelativeToolTip": "src\\app\\api\\apply\\route.ts",
+              "ViewState": "AQIAABcAAAAAAAAAAAAYwD4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T09:13:12.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "page.tsx",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\applied\\page.tsx",
+              "RelativeDocumentMoniker": "src\\app\\applied\\page.tsx",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\applied\\page.tsx",
+              "RelativeToolTip": "src\\app\\applied\\page.tsx",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T09:16:28.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "page.tsx",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\page.tsx",
+              "RelativeDocumentMoniker": "src\\app\\page.tsx",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\page.tsx",
+              "RelativeToolTip": "src\\app\\page.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T09:15:57.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "api.ts",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\api.ts",
+              "RelativeDocumentMoniker": "src\\lib\\api.ts",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\api.ts",
+              "RelativeToolTip": "src\\lib\\api.ts",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T07:54:15.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "layout.tsx",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\layout.tsx",
+              "RelativeDocumentMoniker": "src\\app\\layout.tsx",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\layout.tsx",
+              "RelativeToolTip": "src\\app\\layout.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T09:13:45.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "swr-provider.tsx",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\swr-provider.tsx",
+              "RelativeDocumentMoniker": "src\\app\\swr-provider.tsx",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\swr-provider.tsx",
+              "RelativeToolTip": "src\\app\\swr-provider.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-21T10:04:17.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "store.ts",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\store.ts",
+              "RelativeDocumentMoniker": "src\\lib\\store.ts",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\store.ts",
+              "RelativeToolTip": "src\\lib\\store.ts",
+              "ViewState": "AQIAABwAAAAAAAAAAAAiwFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T07:55:04.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "types.ts",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\types.ts",
+              "RelativeDocumentMoniker": "src\\lib\\types.ts",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\types.ts",
+              "RelativeToolTip": "src\\lib\\types.ts",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T07:55:15.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "schema.ts",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\schema.ts",
+              "RelativeDocumentMoniker": "src\\lib\\schema.ts",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\schema.ts",
+              "RelativeToolTip": "src\\lib\\schema.ts",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T07:54:54.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "date.ts",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\date.ts",
+              "RelativeDocumentMoniker": "src\\lib\\date.ts",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\lib\\date.ts",
+              "RelativeToolTip": "src\\lib\\date.ts",
+              "ViewState": "AQIAABgAAAAAAAAAAAA3wEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T07:54:38.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "page.tsx",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\offline\\page.tsx",
+              "RelativeDocumentMoniker": "src\\app\\offline\\page.tsx",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\offline\\page.tsx",
+              "RelativeToolTip": "src\\app\\offline\\page.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T07:44:01.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "page.tsx",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\lan\\page.tsx",
+              "RelativeDocumentMoniker": "src\\app\\lan\\page.tsx",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\lan\\page.tsx",
+              "RelativeToolTip": "src\\app\\lan\\page.tsx",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAgwH0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T09:59:04.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "route.ts",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\api\\n8n\\callback\\route.ts",
+              "RelativeDocumentMoniker": "src\\app\\api\\n8n\\callback\\route.ts",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\api\\n8n\\callback\\route.ts",
+              "RelativeToolTip": "src\\app\\api\\n8n\\callback\\route.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T09:13:28.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "route.ts",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\api\\ip\\route.ts",
+              "RelativeDocumentMoniker": "src\\app\\api\\ip\\route.ts",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\src\\app\\api\\ip\\route.ts",
+              "RelativeToolTip": "src\\app\\api\\ip\\route.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T09:58:11.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "eslint.config.mjs",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\eslint.config.mjs",
+              "RelativeDocumentMoniker": "eslint.config.mjs",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\eslint.config.mjs",
+              "RelativeToolTip": "eslint.config.mjs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-20T03:25:21.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "next.config.mjs",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\next.config.mjs",
+              "RelativeDocumentMoniker": "next.config.mjs",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\next.config.mjs",
+              "RelativeToolTip": "next.config.mjs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-19T08:07:12.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "tailwind.config.ts",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\tailwind.config.ts",
+              "RelativeDocumentMoniker": "tailwind.config.ts",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\tailwind.config.ts",
+              "RelativeToolTip": "tailwind.config.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T08:07:48.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "postcss.config.mjs",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\postcss.config.mjs",
+              "RelativeDocumentMoniker": "postcss.config.mjs",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\postcss.config.mjs",
+              "RelativeToolTip": "postcss.config.mjs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-19T09:05:24.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T08:52:44.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-20T03:26:30.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "next.config.ts",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\next.config.ts",
+              "RelativeDocumentMoniker": "next.config.ts",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\next.config.ts",
+              "RelativeToolTip": "next.config.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-20T03:26:11.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "manifest.json",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\public\\manifest.json",
+              "RelativeDocumentMoniker": "public\\manifest.json",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\public\\manifest.json",
+              "RelativeToolTip": "public\\manifest.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T08:05:43.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\.editorconfig",
+              "RelativeDocumentMoniker": ".editorconfig",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\.editorconfig",
+              "RelativeToolTip": ".editorconfig",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-19T16:58:01.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\tsconfig.json",
+              "RelativeDocumentMoniker": "tsconfig.json",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\tsconfig.json",
+              "RelativeToolTip": "tsconfig.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T09:20:44.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": ".env.local.example",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\.env.local.example",
+              "RelativeDocumentMoniker": ".env.local.example",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\.env.local.example",
+              "RelativeToolTip": ".env.local.example",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-19T09:09:10.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "sw.js",
+              "DocumentMoniker": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\public\\sw.js",
+              "RelativeDocumentMoniker": "public\\sw.js",
+              "ToolTip": "C:\\Users\\yu.hong\\Desktop\\E-Leave\\e-leave\\public\\sw.js",
+              "RelativeToolTip": "public\\sw.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-19T08:05:59.128Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

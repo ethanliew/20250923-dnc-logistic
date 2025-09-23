@@ -1,26 +1,225 @@
 @import "tailwindcss";
 
+/* ===== Base / tokens (iOS-ish) ===== */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --bg: #f2f4f7;
+    --card: #ffffff;
+    --text: #0f172a; /* slate-900 */
+    --muted: #64748b; /* slate-500 */
+    --brand: #0ea5e9; /* sky-500 */
+    --brand-press: #0284c7; /* sky-600 */
+    color-scheme: light;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html, body {
+    height: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, "Noto Sans", system-ui, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* ===== Layout ===== */
+.page {
+    max-width: 480px; /* iPhone-ish content width */
+    margin: 0 auto;
+    padding: 16px;
+    padding-bottom: calc(96px + env(safe-area-inset-bottom)); /* leave space for tab bar */
+}
+
+.h1 {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.small {
+    font-size: 12px;
+    color: var(--muted);
+}
+
+/* ===== Cards ===== */
+.card {
+    background: var(--card);
+    border-radius: 18px;
+    border: 1px solid #eef2f7;
+    box-shadow: 0 1px 1px rgba(15,23,42,.04), 0 6px 16px rgba(15,23,42,.06);
+    padding: 14px;
+}
+
+/* ===== Inputs ===== */
+label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #334155;
+}
+
+input, select, textarea {
+    appearance: none;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 10px 12px;
+    font-size: 15px;
+    outline: none;
+}
+
+    input:focus, select:focus, textarea:focus {
+        border-color: #bae6fd;
+        box-shadow: 0 0 0 4px rgba(14,165,233,.12);
+    }
+
+/* Checkbox row tidy */
+.form-grid {
+    display: grid;
+    gap: 10px;
+}
+
+.form-grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Primary button */
+button.btn {
+    width: 100%;
+    border-radius: 16px;
+    padding: 14px 16px;
+    font-weight: 800;
+}
+
+button.primary {
+    background: var(--brand);
+    color: white;
+}
+
+    button.primary:active {
+        background: var(--brand-press);
+        transform: translateY(0.5px);
+    }
+
+/* ===== Tab bar (iOS-style) ===== */
+.tabbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 8px 14px calc(8px + env(safe-area-inset-bottom));
+    backdrop-filter: saturate(180%) blur(16px);
+    background: rgba(255,255,255,.8);
+    border-top: 1px solid rgba(0,0,0,.06);
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    z-index: 40;
+}
+
+.tabbar-inner {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+.tab {
+    flex: 1;
+    display: flex;
+    grid-template-rows: 18px auto;
+    align-items: center;
+    justify-items: center;
+    gap: 4px;
+    padding: 8px 14px;
+    border-radius: 14px;
+    min-width: 82px;
+    text-decoration: none;
+    color: #334155;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+    .tab svg {
+        width: 18px;
+        height: 18px;
+        opacity: .65;
+    }
+
+    .tab.active {
+        background: #ffffff;
+        color: var(--brand);
+        box-shadow: 0 1px 1px rgba(14,165,233,.05), 0 4px 12px rgba(14,165,233,.10);
+    }
+
+        .tab.active svg {
+            opacity: 1;
+        }
+
+
+.check-row {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 10px;
+}
+
+.check {
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px; 
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.check input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border:1.5px solid #cbd5e1;
+    display: inline-grid;
+    place-content: center;
+}
+
+.check input[type="checkbox"]:checked {
+    background: #0ea5e9;
+    border-color: #0ea5e9;
+    color: #fff;
+}
+
+.check input[type="checkbox"]:checked::after {
+    content: '✓';
+    font-size: 14px;
+    line-height:1;
+}
+
+.title-border { 
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 6px;
+}
+
+.card {
+    border: 1px solid #e5e7eb;
+
+}
+
+.check span {
+    white-space: normal;
+    word-break: break-word;
 }

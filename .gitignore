@@ -1,41 +1,53 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node / Next.js
+node_modules/
+.next/
+out/
+!.next/static/.keep
+dist/
+coverage/
+.eslintcache
+.npmrc
+.pnp.*            # Yarn PnP
+.turbo/           # Turborepo / Turbopack cache (safe to ignore)
+.vercel/          # Vercel local settings
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+# Env files (keep example files)
+.env
+.env.*.local
+.env.local
+!.env.example
+!.env.*.example
 
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
+# OS junk
 .DS_Store
-*.pem
+Thumbs.db
+ehthumbs.db
+Icon?
+$RECYCLE.BIN/
 
-# debug
+# Logs & diagnostics
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# vercel
-.vercel
+# Optional: package managers’ local stores
+.pnpm-store/
+.yarn/
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
 
-# typescript
+# Misc build artifacts
 *.tsbuildinfo
-next-env.d.ts

@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "items": [
+    {
+      "id": "H-20250812-003",
+      "groups": [ "Tri-e unitech sdn bhd" ],
+      "applicantName": "Nur Iman",
+      "designation": "Engineer",
+      "department": "Support",
+      "leaveTypes": [ "Medical" ],
+      "reason": "MC",
+      "startDate": "2025-08-10",
+      "endDate": "2025-08-11",
+      "totalWorkingDays": 1,
+      "contactAddress": "PJ",
+      "contactTel": "011-55552222",
+      "dateRequest": "2025-08-10",
+      "status": "Approved",
+      "createdAt": "2025-08-10T02:20:00.000Z"
+    },
+    {
+      "id": "H-20250701-001",
+      "groups": [ "Tri-e multimedia sdn bhd" ],
+      "applicantName": "S. Kumar",
+      "designation": "Designer",
+      "department": "Marketing",
+      "leaveTypes": [ "Annual", "Others" ],
+      "reason": "Festival",
+      "startDate": "2025-07-05",
+      "endDate": "2025-07-09",
+      "totalWorkingDays": 3,
+      "contactAddress": "Shah Alam",
+      "contactTel": "+60 17-8888888",
+      "dateRequest": "2025-07-01",
+      "status": "Rejected",
+      "createdAt": "2025-07-01T03:00:00.000Z"
+    }
+  ]
+}

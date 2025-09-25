@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "items": [
+    {
+      "id": "A-20250924-001",
+      "groups": [ "Tri-e Marketing sdn bhd" ],
+      "applicantName": "Alex Tan",
+      "designation": "Executive",
+      "department": "Sales",
+      "leaveTypes": [ "Annual" ],
+      "reason": "Family trip",
+      "startDate": "2025-10-02",
+      "endDate": "2025-10-04",
+      "totalWorkingDays": 2,
+      "contactAddress": "Kuala Lumpur",
+      "contactTel": "0123456789",
+      "dateRequest": "2025-09-24",
+      "status": "Pending",
+      "createdAt": "2025-09-24T01:15:00.000Z"
+    }
+  ]
+}

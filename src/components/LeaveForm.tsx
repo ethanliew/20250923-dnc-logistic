@@ -4,14 +4,7 @@ import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useState } from 'react';
 import { mutate } from 'swr';
-
-
-
-const isoDate = z
-    .string()
-    .refine(v => /^\d{4}-\d{2}-\d{2}$/.test(v), { message: 'Invalid date (YYYY-MM-DD)' });
-
-type FormValues = z.infer<typeof leaveSchema>;
+import type { AppliedResponse, BalanceResponse, N8nIngestResponse } from '@/lib/types';
 
 const GROUPS = [
     'Tri-e Marketing sdn bhd',
@@ -21,25 +14,7 @@ const GROUPS = [
     'Tri-e nihomes sdn bhd (fka Tri-e digital sdn bhd)'
 ] as const;
 
-function workingDaysInclusive(startISO: string, endISO: string) {
-    const start = new Date(startISO);
-    const end = new Date(endISO);
-    const days: Date[] = [];
-    for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
-        days.push(new Date(d));
-    }
-    return days.filter(d => {
-        const day = d.getDay(); // 0 Sun .. 6 Sat
-        return day !== 0 && day !== 6;
-    }).length || 1;
-}
-
-function todayISO() {
-    const d = new Date();
-    const mm = String(d.getMonth() + 1).padStart(2, '0');
-    const dd = String(d.getDate()).padStart(2, '0');
-    return `${d.getFullYear()}-${mm}-${dd}`;
-}
+const isoDate = z.string().refine(v => /^\d{4}-\d{2}-\d{2}$/.test(v), { message: 'Invalid date (YYYY-MM-DD)' });
 
 const leaveSchema = z.object({
     groups: z.array(z.enum(GROUPS)).min(1, 'Select at least one group'),
@@ -55,13 +30,30 @@ const leaveSchema = z.object({
     contactTel: z.string().min(6).max(20),
     dateRequest: isoDate
 });
+type FormValues = z.infer<typeof leaveSchema>;
+
+function workingDaysInclusive(startISO: string, endISO: string) {
+    const start = new Date(startISO);
+    const end = new Date(endISO);
+    const days: Date[] = [];
+    for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) days.push(new Date(d));
+    return days.filter(d => ![0, 6].includes(d.getDay())).length || 1;
+}
+function todayISO() {
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
 
 export default function LeaveForm() {
     const [submitting, setSubmitting] = useState(false);
     const defaultDate = todayISO();
 
-    const { register, watch, handleSubmit, setValue, formState: { errors } } = useForm<FormValues>({
+    const {
+        register, watch, handleSubmit, setValue,
+        formState: { errors }
+    } = useForm<FormValues>({
         resolver: zodResolver(leaveSchema),
+        mode: 'onSubmit',
         defaultValues: {
             groups: [],
             applicantName: '', designation: '', department: '',
@@ -77,8 +69,7 @@ export default function LeaveForm() {
     const endDate = watch('endDate');
 
     function recomputeDays(s: string, e: string) {
-        const days = workingDaysInclusive(s, e);
-        setValue('totalWorkingDays', days, { shouldValidate: true });
+        setValue('totalWorkingDays', workingDaysInclusive(s, e), { shouldValidate: true });
     }
 
     async function onSubmit(values: FormValues) {
@@ -89,26 +80,33 @@ export default function LeaveForm() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(values)
             });
-            const data = await res.json();
-
+            if (!res.ok) {
+                const t = await res.text().catch(() => '');
+                throw new Error(t || `Submission failed (${res.status})`);
+            }
+            const data: N8nIngestResponse = await res.json();
             if (!data?.ok) throw new Error(data?.message ?? 'Submission failed');
 
-            alert('Leave submitted!');
-
-            // SWR: update the "applied list" immediately
-            await mutate('/api/apply', (prev?: { ok: boolean; items: any[] }) => {
-                const created = data.application; // comes from your POST response
-                const items = [created, ...(prev?.items ?? [])];
-                return { ok: true, items };
-            }, { revalidate: false });
-
-            // (Optional) also refresh balance if your POST returns new balance
+            // ✅ Optimistic updates
+            if (data.application) {
+                await mutate<AppliedResponse>(
+                    '/api/apply',
+                    prev => ({ ok: true, items: [data.application, ...(prev?.items ?? [])] }),
+                    { revalidate: false }
+                );
+            }
             if (data.balance) {
-                await mutate('/api/apply?view=balance', { ok: true, balance: data.balance }, { revalidate: false });
+                await mutate<BalanceResponse>(
+                    '/api/apply?view=balance',
+                    { ok: true, balance: data.balance },
+                    { revalidate: false }
+                );
             }
 
-            // (Optional) reset form here if you like
+            alert('Leave submitted!');
+            // optional: reset or navigate
             // reset();
+            // router.push('/applied');
         } catch (e: any) {
             alert(e?.message ?? 'Error');
         } finally {
@@ -123,18 +121,44 @@ export default function LeaveForm() {
             <div className="card space-y-2">
                 <label>Group</label>
                 <div className="check-row">
-                    {GROUPS.map((g) => (
+                    {GROUPS.map(g => (
                         <label key={g} className="check">
                             <input type="checkbox" value={g} {...register('groups')} />
                             <span className="break-words">{g}</span>
                         </label>
                     ))}
                 </div>
-                {errors.groups && (
-                    <p className="small" style={{ color: '#dc2626' }}>
-                        {String(errors.groups.message)}
-                    </p>
-                )}
+                {errors.groups && <p className="small" style={{ color: '#dc2626' }}>{String(errors.groups.message)}</p>}
+            </div>
+
+            <div className="card space-y-3">
+                <div>
+                    <label>Applicant name</label>
+                    <input placeholder="Full name" {...register('applicantName')} />
+                    {errors.applicantName && (
+                        <p className="small" style={{ color: '#dc2626' }}>
+                            {String(errors.applicantName.message)}
+                        </p>
+                    )}
+                </div>
+                <div>
+                    <label>Designation</label>
+                    <input placeholder="Job title" {...register('designation')} />
+                    {errors.designation && (
+                        <p className="small" style={{ color: '#dc2626' }}>
+                            {String(errors.designation.message)}
+                        </p>
+                    )}
+                </div>
+                <div>
+                    <label>Department</label>
+                    <input placeholder="Department" {...register('department')} />
+                    {errors.department && (
+                        <p className="small" style={{ color: '#dc2626' }}>
+                            {String(errors.department.message)}
+                        </p>
+                    )}
+                </div>
             </div>
 
             <div className="card space-y-2">
@@ -149,8 +173,6 @@ export default function LeaveForm() {
                 </div>
                 {errors.leaveTypes && <p className="small" style={{ color: '#dc2626' }}>{String(errors.leaveTypes.message)}</p>}
             </div>
-
-            
 
             <div className="card space-y-3">
                 <div>
@@ -207,6 +229,7 @@ export default function LeaveForm() {
             <button className="primary btn w-full" disabled={submitting} aria-busy={submitting}>
                 {submitting ? 'Submitting\u2026' : 'Submit application'}
             </button>
+
         </form>
     );
 }

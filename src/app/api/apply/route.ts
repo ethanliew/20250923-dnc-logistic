@@ -1,4 +1,16 @@
 import { NextResponse } from 'next/server';
+import path from 'node:path';
+import fs from 'node:fs/promises';
+
+
+const USE_MOCK = process.env.MOCK === '1';
+const mockPath = (file: string) => path.join(process.cwd(), 'src', 'mock', file);
+
+async function loadJson(file: string) {
+    const p = mockPath(file);
+    const txt = await fs.readFile(p, 'utf-8');
+    return JSON.parse(txt);
+}
 
 export const runtime = 'nodejs'; // ensure Node runtime (Edge lacks process.env by default)
 
@@ -25,6 +37,13 @@ async function readJsonSafe(res: Response) {
 }
 
 export async function POST(req: Request) {
+
+    if (USE_MOCK) {
+        // Return static mock OR generate on the fly
+        const data = await loadJson('ingest-response.json');
+        return NextResponse.json(data, { status: 200 });
+    }
+
     if (!N8N_WEBHOOK_INGEST_URL) {
         return json({ ok: false, message: 'Server is missing N8N_WEBHOOK_INGEST_URL' }, 500);
     }
@@ -70,6 +89,13 @@ export async function POST(req: Request) {
 export async function GET(req: Request) {
     const { searchParams } = new URL(req.url);
     const view = searchParams.get('view');
+
+    if (USE_MOCK) {
+        if (view === 'balance') return NextResponse.json(await loadJson('balance.json'));
+        if (view === 'history') return NextResponse.json(await loadJson('history.json'));
+        // default → applied
+        return NextResponse.json(await loadJson('applied.json'));
+    }
 
     if (view === 'balance') {
         return json({
